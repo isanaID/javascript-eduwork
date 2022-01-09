@@ -1,3 +1,5 @@
-import { user } from "./biodata.js";
+import { biodata } from "./biodata.js";
 
-user("isana", 22, "male");
+const person = new biodata("isana", 16, "Male");
+const app = document.getElementById("app");
+person.render(app);

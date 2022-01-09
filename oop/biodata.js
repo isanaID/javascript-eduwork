@@ -11,10 +11,4 @@ class biodata {
     }
 }
 
-const user = (name, age, gender) => {
-const person = new biodata(name, age, gender);
-const app = document.getElementById("app");
-person.render(app);
-}
-
-export { user };
+export { biodata };
